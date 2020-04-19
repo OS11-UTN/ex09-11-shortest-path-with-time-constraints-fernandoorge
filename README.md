@@ -57,8 +57,21 @@ Each exercise of the assignment is solved in a different file
 * One possible solution is to restric the decision variables to be binary, any given path is taken or not.
 
 ### Solution to exercise 10
+```
+    1) For #EX09 and T ≤ 8 hs. apply the Lagrangian Relaxation method and find a solution iterating for   
+       different values of lagrangian multipliers (λ) between 0 and 1.
+```
+* Solution code can be found at **ex10.py**
 
-* In progress
+```
+    2) Plot all the objective function primal solutions for the set of lagrangian multipliers used in 1).
+```
+![](ex10.png)
+
+
+```
+    3) What should be the optimum λ related to the shortest path solution?
+```
 
 ### Solution to exercise 11
 
