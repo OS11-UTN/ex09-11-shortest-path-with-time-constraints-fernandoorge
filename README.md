@@ -66,6 +66,14 @@ Each exercise of the assignment is solved in a different file
 ```
     2) Plot all the objective function primal solutions for the set of lagrangian multipliers used in 1).
 ```
+
+```math
+    costs(\lambda) = -\lambda \cdot T + min\{ \hat{c} \cdot x \}
+```
+where
+* $`T = 8`$
+* $`\hat{c} = c + \lambda \cdot t `$
+
 ![](ex10.png)
 
 
