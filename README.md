@@ -94,8 +94,9 @@ SOLUTION
     Optimal Xvector : [1. 0. 0. 1. 0. 0. 0.]
 ```
 
-Then, we have to take the optimal xvector (the decision variables), and get the solution to the main problem
+**Then, we have to take the optimal xvector (the decision variables), and get the solution to the main problem**
 
+```
 SOLUTION
     Optimal Xvector : [1. 0. 0. 1. 0. 0. 0.]
     Path to take    : 
