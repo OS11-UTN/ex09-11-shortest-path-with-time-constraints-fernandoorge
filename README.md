@@ -77,4 +77,30 @@ Each exercise of the assignment is solved in a different file
 
 ### Solution to exercise 11
 
-* In progress
+```
+For #EX09 and T ≤ 8 hs. apply the Lagrangian Relaxation method and find the shortest path iterating between several values of lagrangian multipliers using the subgradient method.
+```
+
+First we have the solution to the relaxation problem
+
+![](ex11_a.png)
+![](ex11_b.png)
+
+```
+SOLUTION
+	# of iterations : 201
+    Optimal cost    : 5.384257
+    Optimal lambda  : 0.403936
+    Optimal Xvector : [1. 0. 0. 1. 0. 0. 0.]
+```
+
+Then, we have to take the optimal xvector (the decision variables), and get the solution to the main problem
+
+SOLUTION
+    Optimal Xvector : [1. 0. 0. 1. 0. 0. 0.]
+    Path to take    : 
+		 Arc ('s', '2') must be taken.
+		 Arc ('2', 't') must be taken.
+    Distance        : 7
+    Time            : 4
+```
