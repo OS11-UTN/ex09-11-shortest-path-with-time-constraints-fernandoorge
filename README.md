@@ -67,19 +67,13 @@ Each exercise of the assignment is solved in a different file
     2) Plot all the objective function primal solutions for the set of lagrangian multipliers used in 1).
 ```
 
-```math
-    costs(\lambda) = -\lambda \cdot T + min\{ \hat{c} \cdot x \}
-```
-where
-* $`T = 8`$
-* $`\hat{c} = c + \lambda \cdot t `$
-
 ![](ex10.png)
-
 
 ```
     3) What should be the optimum λ related to the shortest path solution?
 ```
+
+* The optimum λ is the **red-dot** in the previous figure, i.e. λ=0.4.
 
 ### Solution to exercise 11
 
